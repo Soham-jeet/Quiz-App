@@ -1,0 +1,10 @@
+import React from "react";
+
+const Result=({score,playAgain})=>(
+    <div className="score-board">
+        <div className="score">You Scored {score} out of 5 Correct Answers !!</div>
+        <button className="playBtn" onClick={playAgain}>Play Again !!</button>
+    </div>
+);
+
+export default Result;
